@@ -1,0 +1,94 @@
+body {
+    background-image: url("../images/light_grey.jpg");
+}
+header {
+    height: 100px;
+    width: 100%;
+    background:#fff;
+    border-bottom: 5px solid #cccccc;
+    border-top: 5px solid #cccccc;
+    border-right: 5px solid #cccccc;
+    border-left: 5px solid #cccccc;
+}
+
+.headername {
+    float: left;
+    height: 80px;
+    margin-left: 0px;
+    margin-top: 19px;
+    border: 1px solid #cccccc;
+}
+.menuoptions{
+    float:right;
+    height: 80px;
+    margin-top:19px;
+    border: 1px solid #cccccc;
+}
+#leftside {float: left;
+width: 50%;
+height: 70%;
+background-color: #ffffff;
+margin: 30px 1% 10px 8%;
+border: 3px solid #cccccc;
+padding: 5px 3% 7px 3%;
+}
+#rightside {
+    float: right;
+    width: 25%;
+    background-color: #ffffff;
+    margin: 30px 12% 30px 0%;
+    border: 3px solid #cccccc;
+    padding: 20px 3% 20px 3%;
+    max-width: 180px;
+}
+.Contactlogos { border-radius: 3px;
+    border: 3px solid #dddddd;
+    padding: 3px;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    margin: 5px 3px 0px 2px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px, 12px, 10px, 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 10px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4aaaa5;
+    font: bold;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #4aaaa5;
+}
+.footer{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #cccccc;
+    text-align: center;
+    vertical-align: bottom;
+    height: 2px;
+    border-top-style: solid;
+    border-top-width: 8px;
+    border-color: #4aaaa5;
+}
+.copyright {
+    vertical-align: center
+}
